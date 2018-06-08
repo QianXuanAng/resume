@@ -2,24 +2,35 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>JS Bin</title>
+  <title>fengjing</title>
   <style>
       .layout{
           opacity:0.8;
+          margin-left:auto;
+          margin-right:auto;
+          width: 850px;
         }
        h1{
-          text-align:center;
+            color: #666;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
         }
       .xiao{
           width:270px;
-          height:230px;
           box-shadow:0px 2px 4px 1px rgba(0,0,0,0.4);
           float:left;
+          margin-left:20px;
+          margin-top:30px;
         }
+      .xiao::after{
+          content: '';
+          display: block;
+          clear: both;
+      }
       .tu{
           float:left;
           width:270px;
-          height:170px;
           background:rgba(0,0,0,0.4);
         } 
       .tuwen{
@@ -29,25 +40,10 @@
           margin:20px 100px;
         }
       .con{
-          width:850px;
           margin-top:30px;
-          padding-top:50px;
-          border-top:1px solid;
-          margin-left:auto;
-          margin-right:auto;
+          margin-left:-20px;
         }
-      .x2{
-          margin:0px 0px 30px 20px;
-        }
-      .x3{
-          margin:0px 0px 30px 20px;
-        }
-      .x5{
-          margin:0px 0px 0px 20px;
-        }
-      .x6{
-          margin:0px 0px 0px 20px;
-        }
+      
  </style>
 </head>
 <body>
@@ -58,23 +54,23 @@
         <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" class="tu">
         <p class="tuwen">风景如画</p >
       </div>
-      <div class="xiao x2">
+      <div class="xiao">
         <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" class="tu">
         <p class="tuwen">风景如画</p >
       </div>
-      <div class="xiao x3">
+      <div class="xiao">
         <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" class="tu">
         <p class="tuwen">风景如画</p >
       </div>
-      <div class="xiao x4">
+      <div class="xiao">
         <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" class="tu">
         <p class="tuwen">风景如画</p >
       </div>
-      <div class="xiao x5">
+      <div class="xiao">
         <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" class="tu">
         <p class="tuwen">风景如画</p >
       </div>
-      <div class="xiao x6 ">
+      <div class="xiao">
         <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" class="tu">
         <p class="tuwen">风景如画</p >
       </div>     
@@ -82,3 +78,4 @@
   </div>
 </body>
 </html>
+
