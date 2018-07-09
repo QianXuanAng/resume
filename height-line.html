@@ -1,0 +1,44 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+       body{
+  line-height:200%;
+  font-size:32px;
+    border:none;
+}
+*{
+  border:1px solid;
+  margin:20px;
+}
+
+div{
+  font-size:16px;
+  line-height:200%;
+}
+
+header{
+  font-size:16px;
+}
+
+footer{
+  line-height:200%;
+}
+
+    </style>
+</head>
+<body>
+    
+  <div>fz:16px;lh:200%; lh=16*200%</div>
+  
+  <p>没有设置lh，找父级body的lh，body 的fz:32px;lh:200%; lh=32*200%</p> 
+  <header>设置fz，没有设置lh，找父级body的lh，body 的fz:32px;lh:200%; lh=32*200%</header>
+  <footer>设置lh, fz 继承父级 body的，fz:32px;lh:200%; lh=16*200%</footer>
+</body>
+</html>
